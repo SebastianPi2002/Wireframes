@@ -1,0 +1,96 @@
+*{margin:0; padding:0;}
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+  }
+
+body {
+    background: skyblue;
+   
+}
+
+header{
+    width:100%;
+    overflow:hidden;
+    background: #90EE90;
+    margin-bottom:20px;
+    position: fixed;
+}
+
+.wrapper{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    overflow:hidden;
+}
+
+header .logo{
+    color:#A0522D;
+    font-size:30px;
+    line-height:50px;
+    float: left;
+}
+
+header nav{
+    float:right;
+    line-height: 50px;
+}
+
+header nav a{
+    display: inline-block;
+    color:#0b8484;
+    text-decoration:none;
+    padding:10px 25px;
+    line-height:normal;
+    font-size:15px;
+    font-weight:bold;
+}
+
+header nav a:hover{
+    background:#FFE4E1;
+    border-radius: 50px;
+}
+
+
+.contenido{
+    padding-bottom :0%;
+}
+.contenido p {
+    margin-bottom: 1em;
+}
+
+
+footer{
+    height:50px;
+    position:absolute;
+    overflow:hidden;
+    background-color:#90EE90;
+    width:100%;
+    line-height:50px;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+footer nav{
+    float:right;
+    line-height: 50px;
+}
+
+footer nav a{
+    display: inline-block;
+    color:#0b8484;
+    text-decoration:none;
+    padding:10px 25px;
+    line-height:normal;
+    font-size:15px;
+    font-weight:bold;
+}
+
+footer nav a:hover{
+    background:#FFE4E1;
+    border-radius: 50px;
+}
